@@ -17,7 +17,7 @@ export async function middleware(req) {
 
   console.log(url);
    if(!user && url.includes('/profile')){
-    return NextResponse.redirect('https://rafifayez.kinde.com/oauth2/auth');
+    return NextResponse.redirect('http://localhost:3000/');
   }
 
   return NextResponse.next(); // Allow the request to proceed
