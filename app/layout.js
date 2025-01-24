@@ -44,6 +44,7 @@ export default async function RootLayout({ children }) {
               <ul className="flex items-center justify-center gap-6">
                 <li><Link href='/'>Home</Link></li>
                 <li><Link href='/profile'>Profile</Link></li>
+                <li><Link href='/login'>login</Link></li>
               </ul>
             </div>
             <div className="flex gap-6 ">
